@@ -6,9 +6,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="./calculator.js" defer></script>
   <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
   <title>5318008</title>
 </head>
 <body>
-  
+  <div id="calcBorder">
+    <div id="display">531800008</div>
+    <div id="buttonsContainer">
+      <div id="firstRow" class="buttonsRow">
+        <button class="auxButton" id="acBtn">ac</button>
+        <button class="auxButton">←</button>
+        <button class="auxButton" id="signBtn">⁺∕₋</button>
+        <button class="opButton">÷</button>
+      </div>
+      <div id="secondRow" class="buttonsRow">
+        <button class="numButton">7</button>
+        <button class="numButton">8</button>
+        <button class="numButton">9</button>
+        <button class="opButton">×</button>
+      </div>
+      <div id="thirdRow" class="buttonsRow">
+        <button class="numButton">4</button>
+        <button class="numButton">5</button>
+        <button class="numButton">6</button>
+        <button class="opButton">-</button>
+      </div>
+      <div id="fourthRow" class="buttonsRow">
+        <button class="numButton">1</button>
+        <button class="numButton">2</button>
+        <button class="numButton">3</button>
+        <button class="opButton">+</button>
+      </div>
+      <div id="fifthRow" class="buttonsRow">
+        <button class="numButton" id="zeroBtn">0</button>
+        <button class="numButton">.</button>
+        <button class="opButton">=</button>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
