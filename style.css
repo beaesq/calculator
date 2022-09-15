@@ -34,10 +34,7 @@ body {
   flex-shrink: 1;
   background-color: #ffffff;
   border: #000000 solid 2px;
-  margin-top: 32px;
-  margin-left: 32px;
-  margin-right: 32px;
-  margin-bottom: 16px;
+  margin: 32px;
   font-size: 70px;
   justify-content: flex-end;
   align-items: flex-end;
@@ -47,7 +44,7 @@ body {
 }
 
 button {
-  padding: 4px 20px;
+  /* padding: 4px 20px; */
   background-color: #ffffff;
   border: #ffffff solid 2px;
   color: #000000;
@@ -72,20 +69,23 @@ button:hover {
 }
 
 #zeroBtn {
-  flex-grow: 3.05;
+  flex-grow: 2;
   text-align: left;
   padding-left: 30px;
 
 }
 .buttonsRow {
   display: flex;
-  margin: 16px 32px;
-  gap: 16px;
+  margin: 0 32px;
+  gap: 8px;
+  flex: 1;
 }
 
-.buttonsContainer {
+#buttonsContainer {
   display: flex;
   flex: 1;
   flex-direction: column;
-  justify-content: space-around;
+  margin-bottom: 32px;
+  justify-content: space-between;
+  gap: 8px;
 }
